@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Img contact/logo 2.png" alt="logo Quatre pattes">
+            </div>
+            <ul class="accueil">
+                <li><a href="accueil.html" target="_blank">Accueil</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <img src="Img contact/" alt="">
+                Faire un don
+            </button>
+        </nav>
+    </header>
+
+    <h1>Contactez-nous</h1>
+    <div id="formulaire">
+        <form id="myForm" onsubmit="return formValide()">
+            <label for="username">Nom</label><br>
+            <input type="text" id="username">
+            <div id="error-username" class="error"></div><br>
+    
+            <label for="mail">Email</label><br>
+            <input type="text" id="mail">
+            <div id="error-mail" class="error"></div><br>
+    
+            <label for="sujet">Sujet</label><br>
+            <select name="sujet">
+                <option>Faire un don</option>
+                <option>Devenir bénévole</option>
+                <option>Questions générales</option>
+            </select><br>
+            <input type="text" id="sujet"><br>
+    
+            <label for="message">Message</label><br>
+            <input type="text" id="message">
+            <div id="error-message" class="error"></div><br>
+    
+            <button type="submit">
+                <img src="Img contact/send 2.png" alt="Envoyer">
+                Envoyer
+            </button>
+        </form> 
+    </div>
+    <script src="contact.js" type="text/javascript"></script>
+</body>
+</html>
