@@ -36,3 +36,37 @@ a{
     width: 297px;
     height: 50px;
 }
+
+#hist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "c1 c1 c1"
+    "c1 c1 c1"
+    "c2 c3 c4";
+}
+
+#Temoignages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "Lyon Marseille Paris"; 
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.footer h3{
+    margin-bottom: 10px;
+}
+
+.footer-section{
+    margin-bottom: 20px;
+}
