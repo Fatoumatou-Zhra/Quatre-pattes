@@ -26,26 +26,43 @@
     </header>
 
     <main>
-        <img src="Img accueil/Haut de page 1.png" alt="">
+        <div id="head">
+            <img src="Img accueil/Haut de page 1.png" alt="">
+            <h2>Protégeons-les Ensemble</h2>
+            <p>Chaque don pour leur offrir une vie meilleure</p>
+        </div>
 
         <div id="don">
-          <h2>Faites un don</h2> 
+          <h2>Faites un don</h2>
+          <div id="d">
+            <button id="b1"><strong>10€</strong><p>permet de nourrir 5 animaux pendant une journée</p></button>
+            <button id="b2"><strong>20€</strong><p>permet d'héberger un animal sauvage pendant une nuit</p></button>
+            <button id="b3"><strong>50€</strong><p>permet de financer les soins vétérinaires complets pour un animal</p></button><br>
+            <button id="b4">Une fois</button>
+            <button id="b5">Mensuel</button>
+            <button id="b6">Annuel</button><br>
+            <button id="b7" function boutton()>
+                <img src="Img contact/heart.png" alt="">
+                Faire un don de €
+            </button>
+          </div> 
         </div>
 
         <div id="mission">
             <img src="Img accueil/Img Notre mission.png" alt="Un chien">
-            <h2>Notre mission</h2>
             
             <div class="presentation">
+                <h2>Notre mission</h2>
                 <p>Depuis 2010, Quatre Pattes oeuvre sans relache pour la protection et le <br>bien-être des animaux en France. Notre mission est double : secourir les <br>animaux en détresse et sensibiliser le public à la cause animale.<br>
                     Chaque année, nous prenons en charge plus de 1000 animaux abandonnés, <br>maltraités ou blessés. Grâce à notre réseau de familles d’accueil et nos <br>partenariats avec des refuges, nous leur offrons une seconde chance.<br>
                     Votre soutien est essentiel pour continuer notre mission. Ensemble, nous <br>pouvons faire la différence pour ces êtres qui comptent sur nous.</p>
             </div>
 
+            <h2>Histoires de Réussite</h2>
             <section id="hist" class="grid">
                 <div class="c1">
                     <img src="Img accueil/Luna.png" alt="">
-                </div>
+                </div><br>
                 <div class="c2">
                     <img src="Img accueil/Luna-1.png" alt="">
                 </div>
@@ -57,21 +74,51 @@
                 </div>
             </section>
 
-            <div class="connaissances">
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+            <section id="savoir">
+                <h2>Testez Vos Conaissances</h2>
+            <div class="s">
+                <div id="connaissances">
+                    <div class="connaissances-section">
+                        <h3>Les associations gardent la majorité des dons pour leur fonctionnement</h3>
+                        <button class="vrai"><p>Vrai, les associations utilisent plus des 50% des dons pour leur frais de fonctionnement</p></button>   
+                        <button class="faux"><p>Faux</p></button>     
+                    </div>
+                    <div class="connaissances-section">
+                        <h3>Les refuges ne prennent que les animaux en bonne santé</h3>
+                        <button class="vrai"><p>Vrai, ils refusent les animaux  malades car c’est trop coûteux</p></button>   
+                        <button class="faux"><p>Faux</p></button>     
+                    </div>
+                    <div class="connaissances-section">
+                        <h3>Les associations ont trop de moyens grâce aux dons</h3>
+                        <button class="vrai"><p>Vrai, elles reçoivent beaucoup d’argent des donateurs</p></button>   
+                        <button class="faux"><p>Faux</p></button>     
+                    </div>
                 </div>
-                <div>
-                    <h2>Notre Impact</h2>
-                    <img src="Img accueil/house 2.png" alt="">
-                    <img src="Img accueil/paw-print 2.png" alt="">
-                    <img src="Img accueil/utensils 2.png">
+                
+                <h2>Notre Impact</h2>
+                <div id="impact">
+                    <div class="impact-section">
+                        <img src="Img accueil/house 2.png" alt="">
+                    <h3>50+ Refuges</h3>
+                    <p>Partenaires à travers la France</p>
+                    </div>
+                    
+                    <div class="impact-section">
+                        <img src="Img accueil/paw-print 2.png" alt="">
+                        <h3>1000+ Animaux</h3>
+                        <p>Sauvés chaque année</p> 
+                    </div>
+                    
+                    <div class="impact-section">
+                        <img src="Img accueil/utensils 2.png">
+                        <h3>10 000+ Repas</h3>
+                        <p>Distribués par mois</p>
+                    </div>
                 </div>
-
+            </section>
+            
+                <h2>Témoignages</h2>
                 <section id="Temoignages">
-                    <h2>Témoignages</h2>
                     <div class="Lyon">
                         <img src="Img accueil/Temoignage Lyon.png" alt="">
                         <p>“Grâce aux dons,<br>nous avons pu accueillir plus<br> de 200 animaux cette année et leur offrir une<br> seconde chance.”</p>
