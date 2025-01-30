@@ -69,6 +69,34 @@ main img{
     height: auto;
 }
 
+#head {
+    position: relative; 
+    display: inline-block;
+    width: 100%; 
+    text-align: center; 
+}
+
+#chiots {
+    width: 100%; 
+    display: block;
+}
+
+#banniere {
+    position: absolute;
+    top: 30%; /* Ajuste la position verticale */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre exactement */
+    color: white; /* Texte en blanc */
+}
+
+#pbanniere {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 #don{
     padding: 40px;
     background-color: white;
@@ -78,32 +106,55 @@ main img{
     background-color: white;
     box-shadow: 0 0 1px gray;
     width: 100%;
-    max-width: 1000px; 
+    max-width: 600px; 
     padding: 20px;
     border-radius: 5px;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
+}
+
+#d1{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+
+#d2{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+
+#d1 button, #d2 button {
+    flex: 1;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 #b1{
     background-color: white;
     border-color: #F3F4F6;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 #b2{
     background-color: white;
     border-color: #F3F4F6;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 #b3{
     background-color: white;
     border-color: #F3F4F6;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 #b4{
@@ -133,7 +184,10 @@ main img{
     border-radius: 5px;
     border-color: #DA2627;
     width: 100%;
-    height: 30px;
+    padding: 5px;
+    display: flex;   
+    align-items: center;
+    justify-content: center; 
     font-weight: bold;
     font-size: medium;
 }
@@ -145,6 +199,66 @@ main img{
 h2{
     text-align: center;
 }
+
+#notremission{
+    background-color: #D7F3E5;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px;
+}
+
+#notremission img {
+    width: 45%; /* L'image prend 50% de la largeur */
+    height: auto; /* Maintient les proportions de l'image */
+}
+
+
+
+.presentation {
+    width: 50%; /* Le texte prend 50% de la largeur */
+    padding-left: 20px; /* Ajoute un petit espace entre l'image et le texte */
+}
+
+/* Assurez-vous que #Luna est un conteneur positionné */
+#Luna {
+    position: relative; /* Permet de positionner le texte par rapport à ce conteneur */
+    width: 1055px; 
+    height: 472px; 
+    overflow: hidden; /* Empêche tout débordement */
+}
+
+/* Ajuste la taille de l'image */
+#grand {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; /* Permet d'éviter la déformation de l'image */
+    display: block;
+}
+
+/* Conteneur pour le texte */
+#Luna h3, 
+#Luna p {
+    position: absolute;
+    left: 15px; /* Décale le texte à gauche */
+    color: white;
+    width: 90%;
+}
+
+/* Position du titre en bas */
+#Luna h3 {
+    bottom: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Position des paragraphes en bas sous le titre */
+#Luna p {
+    bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 
 #savoir{
     background-color: #EDFEF6;
@@ -164,8 +278,13 @@ h2{
 }
 
 #impact{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "  "; 
     gap: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .impact-section{
