@@ -64,6 +64,11 @@ a{
     gap: 10px;
 }
 
+main img{
+    max-width: 100%;
+    height: auto;
+}
+
 #hist{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
