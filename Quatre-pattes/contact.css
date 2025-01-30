@@ -57,7 +57,7 @@ a{
 #btn{
     background-color: #DA2627;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 150px;
     height: 40px;
     display: flex;
@@ -96,7 +96,7 @@ textarea {
 #boutton{
     background-color: #08956A;
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 100%;
     height: 40px;
     border: none;
