@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/x-icon" href="Img accueil/logo-blanc.png">
 </head>
 <body>
 
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="Img contact/logo 2.png" alt="logo Quatre pattes">
-                <p>Quatre Pattes</p>
+                <img src="Img accueil/logo.png" alt="logo Quatre pattes">
             </div>
             <ul class="accueil">
                 <li><a href="accueil.html" target="_blank">Accueil</a></li>
@@ -26,8 +26,9 @@
     </header>
 
     <main>
-        <h2>Contactez-nous</h2>
     <div id="formulaire">
+        <h2>Contactez-nous</h2>
+
         <form id="myForm" onsubmit="return formValide()">
             <label for="username">Nom</label><br>
             <input type="text" id="username">
@@ -42,8 +43,8 @@
                 <option>Faire un don</option>
                 <option>Devenir bénévole</option>
                 <option>Questions générales</option>
+                <option>Autre</option>
             </select><br>
-            <input type="text" id="sujet"><br>
     
             <label for="message">Message</label><br>
             <textarea id="message"></textarea>
