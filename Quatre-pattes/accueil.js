@@ -47,3 +47,16 @@ function boutton(){
 
 }
 window.onload=boutton;
+
+function un() {
+    let bigOne=document.getElementById("bigOne")
+    bigOne.setAttribute("src","Img accueil/Luna.jpg")
+}
+function deux() {
+    let bigOne=document.getElementById("bigOne")
+    bigOne.setAttribute("src","Img accueil/Oscar.jpg")
+}
+function trois() {
+    let bigOne=document.getElementById("bigOne")
+    bigOne.setAttribute("src","Img accueil/Image Max.jpg")
+}
