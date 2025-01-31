@@ -200,8 +200,15 @@ h2{
     text-align: center;
 }
 
+#mission {
+    background-color: #D7F3E5; 
+    padding: 40px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
 #notremission{
-    background-color: #D7F3E5;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -209,89 +216,74 @@ h2{
 }
 
 #notremission img {
-    width: 45%; /* L'image prend 50% de la largeur */
-    height: auto; /* Maintient les proportions de l'image */
+    width: 50%; 
+    height: auto; 
 }
-
-
 
 .presentation {
-    width: 50%; /* Le texte prend 50% de la largeur */
-    padding-left: 20px; /* Ajoute un petit espace entre l'image et le texte */
+    background-color: white;
+    width: 50%;
+    padding-left: 15px; 
+    border-radius: 0 8px 8px 0;
 }
 
-/* Assurez-vous que #Luna est un conteneur positionné */
-#Luna {
-    position: relative; /* Permet de positionner le texte par rapport à ce conteneur */
-    width: 1055px; 
-    height: 472px; 
-    overflow: hidden; /* Empêche tout débordement */
+.presentation h2{
+    margin-bottom: 15px;
+    text-align: left;
 }
 
-/* Ajuste la taille de l'image */
-#grand {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover; /* Permet d'éviter la déformation de l'image */
-    display: block;
+.presentation p{
+    line-height: 1.6; 
 }
-
-/* Conteneur pour le texte */
-#Luna h3, 
-#Luna p {
-    position: absolute;
-    left: 15px; /* Décale le texte à gauche */
-    color: white;
-    width: 90%;
-}
-
-/* Position du titre en bas */
-#Luna h3 {
-    bottom: 60px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Position des paragraphes en bas sous le titre */
-#Luna p {
-    bottom: 30px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
 
 #savoir{
     background-color: #EDFEF6;
     gap: 15px;
-    padding: 25px;
+    padding: 30px;
 }
 
 .s{
     max-width: 1000px;
+    margin: 0 auto;
     padding: 25px;
 }
 
 .connaissances-section{
     background-color: white;
     margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 8px;
     padding: 25px;
 }
 
-#impact{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-    "  "; 
-    gap: 30px;
-    text-align: center;
-    padding: 30px;
+.buttons {
+    display: flex;
+    gap: 10px;  
+    margin-top: 20px;
+}
+
+button {
+    background-color: #F3F4F6;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    flex-grow: 1;  
+}
+
+#impact {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 40px; 
 }
 
 .impact-section{
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-left: 30px;
-    margin: 0 auto;
+    text-align: center; 
+    max-width: 250px;
+}
+
+.impact-section img {
+    margin-bottom: 15px; 
 }
 
 #Temoignages{
@@ -305,21 +297,15 @@ h2{
     margin-top: 15px;
 }
 
-.Lyon{
-    border-radius: 5px 5px 15px 15px;
-    box-shadow: 0 0 2px gray;
-}
-
-.Marseille{
+.Lyon, .Marseille, .Paris{
     background-color: white;
     border-radius: 5px 5px 15px 15px;
     box-shadow: 0 0 2px gray;
+    text-align: center;
 }
 
-.Paris{
-    background-color: white;
-    border-radius: 5px 5px 15px 15px;
-    box-shadow: 0 0 2px gray;
+.Lyon p, .Marseille p, .Paris p {
+    margin-bottom: 15px; /* Ajouter de l'espace entre le texte et le titre */
 }
 
 .footer{
