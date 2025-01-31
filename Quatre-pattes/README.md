@@ -81,6 +81,7 @@ Page d'accueil :
 
 01/02/2024
     Recommencer toute la page accueil (html et css)
-    - header et footer 
-      durée : 
-    - 
+    - header 
+      durée : 5 minutes
+    - footer
+      durée : 5 minutes
