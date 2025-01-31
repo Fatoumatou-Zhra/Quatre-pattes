@@ -69,27 +69,37 @@ main img{
     height: auto;
 }
 
-#head {
+#head{
     position: relative; 
     display: inline-block;
     width: 100%; 
     text-align: center; 
 }
 
-#chiots {
+#head::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+#chiots{
     width: 100%; 
     display: block;
 }
 
-#banniere {
+#banniere{
     position: absolute;
-    top: 30%; /* Ajuste la position verticale */
+    top: 30%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* Centre exactement */
-    color: white; /* Texte en blanc */
+    transform: translate(-50%, -50%); 
+    color: white; 
 }
 
-#pbanniere {
+#pbanniere{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,9 +107,16 @@ main img{
     color: white;
 }
 
+/*Don*/
 #don{
-    padding: 40px;
     background-color: white;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#don h2{
+    margin-bottom: 50px;
 }
 
 #d{
@@ -113,21 +130,21 @@ main img{
     margin: 0 auto;
 }
 
-#d1{
+#montant{
     display: flex;
     justify-content: space-between; 
     gap: 10px; 
     margin-bottom: 15px;
 }
 
-#d2{
+#frequence{
     display: flex;
     justify-content: space-between; 
     gap: 10px; 
     margin-bottom: 15px;
 }
 
-#d1 button, #d2 button {
+#montant button, #frequence button {
     flex: 1;
     border-radius: 8px;
     padding: 10px;
@@ -136,49 +153,49 @@ main img{
     font-size: 16px;
 }
 
-#b1{
+#btn1{
     background-color: white;
     border-color: #F3F4F6;
     border-radius: 5px;
     padding: 5px;
 }
 
-#b2{
+#btn2{
     background-color: white;
     border-color: #F3F4F6;
     border-radius: 5px;
     padding: 5px;
 }
 
-#b3{
+#btn3{
     background-color: white;
     border-color: #F3F4F6;
     border-radius: 5px;
     padding: 5px;
 }
 
-#b4{
+#btn4{
     background-color: #F5F5F5;
     border-color: #F5F5F5;
     border-radius: 5px;
     padding: 5px;
 }
 
-#b5{
+#btn5{
     background-color: #F5F5F5;
     border-color: #F5F5F5;
     border-radius: 5px;
     padding: 5px;
 }
 
-#b6{
+#btn6{
     background-color: #F5F5F5;
     border-color: #F5F5F5;
     border-radius: 5px;
     padding: 5px;
 }
 
-#b7{
+#btn7{
     background-color: #DA2627;
     color: white;
     border-radius: 5px;
@@ -196,10 +213,20 @@ main img{
     max-height: 20px;
 }
 
+#montant button:focus, #montant button:active, 
+#frequence button:focus, #frequence button:active {
+    background-color: #009065;
+    color: white;
+    border-color: #009065;
+}
+
+
+
 h2{
     text-align: center;
 }
 
+/*Mission*/
 #mission {
     background-color: #D7F3E5; 
     padding: 40px; 
@@ -220,6 +247,7 @@ h2{
     height: auto; 
 }
 
+/*Histoire de réussite*/
 .presentation {
     background-color: white;
     width: 50%;
@@ -246,19 +274,14 @@ h2{
     padding: 20px;
 }
 
+/*Testez vos connaissances*/
 #savoir{
     background-color: #EDFEF6;
     gap: 15px;
     padding: 30px;
 }
 
-.s{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 25px;
-}
-
-.connaissances-section{
+.question{
     background-color: white;
     margin-top: 10px;
     margin-bottom: 25px;
@@ -266,10 +289,18 @@ h2{
     padding: 25px;
 }
 
-.buttons {
+.reponse {
     display: flex;
     gap: 10px;  
     margin-top: 20px;
+    justify-content: space-between;
+}
+
+.vrai .faux{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+
 }
 
 button {
@@ -296,6 +327,7 @@ button {
     margin-bottom: 15px; 
 }
 
+/*Temoignages*/
 #Temoignages{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -315,9 +347,10 @@ button {
 }
 
 .Lyon p, .Marseille p, .Paris p {
-    margin-bottom: 15px; /* Ajouter de l'espace entre le texte et le titre */
+    margin-bottom: 15px; 
 }
 
+/*footer*/
 .footer{
     background-color: #1F2937;
     color: white;
