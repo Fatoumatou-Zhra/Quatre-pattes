@@ -236,6 +236,16 @@ h2{
     line-height: 1.6; 
 }
 
+#hist{
+    padding: 40px; 
+}
+
+#Luna{
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px;
+}
+
 #savoir{
     background-color: #EDFEF6;
     gap: 15px;
