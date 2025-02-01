@@ -81,7 +81,29 @@ Page d'accueil :
 
 01/02/2024
     Recommencer toute la page accueil (html et css)
-    - header 
+    - header ✅
       durée : 5 minutes
-    - footer
+    - footer ↗️
       durée : 5 minutes
+
+    -partie "Témoignages" version desktop ✅
+     durée : 1h10
+     html : 15 minutes
+     css : 55 minutes
+    - partie "Témoignages" responsive 100px ✅
+      durée : 15 minutes
+
+    - partie "Faites un don"
+      -html ✅
+        durée : 10 minutes
+      -js ✅
+        CTA 
+        durée : 30 minutes
+        changement de couleur des boutons
+        durée : 1h40
+      -css ↗️
+        durée : 1h30
+    - partie "Faites un don" responsive ✅
+        durée : 5 minutes
+
+      
