@@ -23,10 +23,6 @@ body{
     height: 80px;
 }
 
-header{
-    margin-bottom: 20px;
-}
-
 .logo{
     display: flex;
     align-items: center;
@@ -68,6 +64,12 @@ a{
 main img{
     max-width: 100%;
     height: auto;
+}
+
+/*Image en-tête*/
+#description{
+    align-items: center;
+    justify-content: center;
 }
 
 /*Faites un don*/
@@ -144,6 +146,23 @@ main img{
     padding: 3px;
     justify-content: center;
     align-items: center;
+}
+
+/*Quiz*/
+#test{
+    background-color: #EDFEF6;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#test h2{
+    text-align: center;
+}
+
+#quiz{
+    padding: 20px;
+    background-color: white;
 }
 
 /*Section témoignage*/

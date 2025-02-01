@@ -106,4 +106,11 @@ Page d'accueil :
     - partie "Faites un don" responsive ✅
         durée : 5 minutes
 
+    - partie "Image en-tête"
+      -html
+        durée : 5 minutes
+
+    - partie "Quiz"
+
+
       
