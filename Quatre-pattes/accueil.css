@@ -66,13 +66,12 @@ main img{
     height: auto;
 }
 
-/*Image en-tête*/
-
+/*Bannière*/
 #banniere{
     position: relative;
 }
 
-#banniere::before {
+#banniere::before{
     content: "";
     position: absolute;
     top: 0;
@@ -94,7 +93,7 @@ main img{
 
 /*Faites un don*/
 #don {
-    padding: 15px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -175,7 +174,7 @@ main img{
     padding: 50px;
 }
 
-#mission img {
+#mission img{
     width: 50%; 
     border-radius: 15px 0 0 15px; 
     object-fit: cover;
@@ -194,6 +193,20 @@ main img{
 #apercu p{
     margin-left: 10px;
     color: #695F5F;
+}
+
+/*Histoire de réussite*/
+#histoire{
+    padding: 30px;
+}
+
+#histoire h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#histoire img{
+    position: relative;
 }
 
 /*Quiz*/
