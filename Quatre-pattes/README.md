@@ -93,7 +93,7 @@ Page d'accueil :
     - partie "Témoignages" responsive 100px ✅
       durée : 15 minutes
 
-    - partie "Faites un don"
+    - partie "Faites un don" ↗️
       -html ✅
         durée : 10 minutes
       -js ✅
@@ -106,11 +106,26 @@ Page d'accueil :
     - partie "Faites un don" responsive ✅
         durée : 5 minutes
 
-    - partie "Image en-tête"
-      -html
+02/02/2024
+    - partie "Banniere" ✅
+      -html ✅
         durée : 5 minutes
+      -css ✅
+        durée : 1h30
 
-    - partie "Quiz"
+    - partie "Quiz" ↗️
+
+    - partie "Notre mission" ↗️
+      -html ✅
+       durée : 5 minutes
+      -css ↗️
+        durée : 30 minutes
+    - partie "Notre mission"  responsive ↗️
+        durée : 20 minutes
+
+
+
+
 
 
       
