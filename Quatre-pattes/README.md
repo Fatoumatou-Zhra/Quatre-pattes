@@ -123,6 +123,13 @@ Page d'accueil :
     - partie "Notre mission"  responsive ↗️
         durée : 20 minutes
 
+    - partie "Histoire de Réussite"  
+      -html ↗️
+      durée : 5 min
+      -js (changement d'image) ✅
+        durée : 10 minutes 
+   
+
 
 
 

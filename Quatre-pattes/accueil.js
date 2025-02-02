@@ -12,21 +12,21 @@ function don(){
     document.getElementById("dix").onclick=function(){
         chiffre="10€"
         btnDon()
-        document.getElementById("dix").style.backgroundColor="#009065"
+        document.getElementById("dix").style.backgroundColor="rgba(0, 144, 101, 0.58)"
         document.getElementById("vingt").style.backgroundColor=""
         document.getElementById("cinquante").style.backgroundColor=""
     }
     document.getElementById("vingt").onclick=function(){
         chiffre="20€"
         btnDon()
-        document.getElementById("vingt").style.backgroundColor="#009065"
+        document.getElementById("vingt").style.backgroundColor="rgba(0, 144, 101, 0.58)"
         document.getElementById("dix").style.backgroundColor=""
         document.getElementById("cinquante").style.backgroundColor=""
     }
     document.getElementById("cinquante").onclick=function(){
         chiffre="50€"
         btnDon()
-        document.getElementById("cinquante").style.backgroundColor="#009065"
+        document.getElementById("cinquante").style.backgroundColor="rgba(0, 144, 101, 0.58)"
         document.getElementById("dix").style.backgroundColor=""
         document.getElementById("vingt").style.backgroundColor=""
     }
@@ -52,7 +52,7 @@ function don(){
         document.getElementById("jour").style.backgroundColor=""
         document.getElementById("mois").style.backgroundColor=""
     }
-    document.getElementById("vingt").style.backgroundColor="#009065"
+    document.getElementById("vingt").style.backgroundColor="rgba(0, 144, 101, 0.58)"
     document.getElementById("mois").style.backgroundColor="#0CB981"
 
     document.getElementById("btnDon").onclick=function(){
@@ -61,3 +61,17 @@ function don(){
 }
 don()
 btnDon()
+
+//Histoire de réussite
+function luna(){
+    let bigOne=document.getElementById("bigOne")
+    bigOne.setAttribute("src","Img accueil/Luna-1.png")
+}
+function oscar(){
+    let bigOne=document.getElementById("bigOne")
+    bigOne.setAttribute("src","Img accueil/Oscar.png")
+}
+function max(){
+    let bigOne=document.getElementById("bigOne")
+    bigOne.setAttribute("src","Img accueil/Image Max.png")
+}
