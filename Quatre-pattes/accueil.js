@@ -75,3 +75,21 @@ function max(){
     let bigOne=document.getElementById("bigOne")
     bigOne.setAttribute("src","Img accueil/Image Max.png")
 }
+
+function recit(animal){
+    let bigOne=document.getElementById("bigOne")
+    let texte=document.getElementById("texte")
+
+    if(animal===luna){
+        bigOne.setAttribute("src","Img accueil/Luna-1.png")
+        texte.innerHTML="<h3>Luna</h3><p>Trouvée dans la rue avec une patte cassée, Luna a été soignée et a retrouvé sa joie de vivre. Elle coule maintenant des jours heureux dans sa nouvelle famille.</p><p>Janvier 2024</p>"
+    }else if(animal===oscar){
+        bigOne.setAttribute("src","Img accueil/Oscar.png") 
+        texte.innerHTML="<h3>Oscar</h3><p>Abandonné dans une forêt, Oscar était terrifié par les humains. Après des mois de patience et d’amour, il est devenu un chat confiant et affectueux.</p><p>Mars 2024</p>"
+    }else if(animal===max){
+        bigOne.setAttribute("src","Img accueil/Image Max.png") 
+        texte.innerHTML="<h3>Max</h3><br><p>Sauvé d'un laboratoire, Max n'avait jamais connu l'amour. Aujourd'hui, il profite de sa liberté et fait le bonheur de sa famille d'accueil.</p><br><p>Février 2024</p>"
+    }
+    recit(animal)
+}
+
