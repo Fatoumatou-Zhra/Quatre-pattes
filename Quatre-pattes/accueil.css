@@ -38,7 +38,7 @@ body{
     list-style: none;
     gap: 20px;
     align-items: center;
-    margin-left: auto;
+    margin-left: 0;
     padding-right: 15px;
 }
 
@@ -205,14 +205,20 @@ main img{
     margin-bottom: 30px;
 }
 
-#histoire img{
-    position: relative;
+#bigOne{
+    width: 100%;
+    
 }
 
+#slide img{
+    width: 400px;
+    height: 150px;
+    object-fit: cover; 
+}
 /*Quiz*/
 #test{
     background-color: #EDFEF6;
-    padding: 40px;
+    padding: 70px;
     justify-content: center;
     align-items: center;
 }
@@ -222,11 +228,46 @@ main img{
 }
 
 #quiz{
-    padding: 20px;
+    padding: 30px;
     background-color: white;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    max-width: 700px;
 }
 
+.question{
+    gap: 5px;
+}
+
+.reponse{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "vrai faux";
+    gap: 5px;
+}
+
+button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.vrai .faux{
+    background-color: #F3F4F6;
+    color: white;
+}
+
+button.correct{
+    background-color: #DCFCE5; 
+}
+
+button.incorrect{
+    background-color: #FFE3E2;
+}
+
+
+/*Notre impact*/
 #impact{
     display: flex;
     justify-content: space-around;
@@ -302,13 +343,24 @@ main img{
 }
 
 @media (max-width:1000px){
-    #retour{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "Lyon"
-        "Marseille"
-        "Paris";
+/*header*/
+    .navbar {
+        flex-direction: column; 
+        height: auto;
     }
+
+    .accueil{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    #btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+/*dons*/
     #montant{
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -317,18 +369,49 @@ main img{
         "cinquante";
         gap: 10px;
     }
+
+/*notre mission*/
     #mission{
         flex-direction: column;
     }
+
     #mission img{
         border-radius: 15px 15px 0 0; 
     }
+
     #apercu{
         border-radius: 0 0 15px 15px; 
         padding: 30px;
     }
+
     #mission img,
     #apercu {
         width: 100%; 
+    }
+    
+/*témoignages*/
+    #retour{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "Lyon"
+        "Marseille"
+        "Paris";
+    }
+
+/*footer*/
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        height: 100%;
+    }
+
+    .footerSection{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer h3{
+        margin-top: 10px;
     }
 }

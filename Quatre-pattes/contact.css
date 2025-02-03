@@ -42,7 +42,7 @@ header{
     list-style: none;
     gap: 20px;
     align-items: center;
-    margin-left: auto;
+    margin-left: 0;
     padding-right: 15px;
 }
 
@@ -65,6 +65,7 @@ a{
     border-color: #DA2627;
 }
 
+/*Formulaire*/
 h2{
     justify-content: center;
     text-align: center;
@@ -136,20 +137,50 @@ textarea {
     margin-bottom: 10px;
 }
 
-.footer-section{
+.footerSection{
     margin-bottom: 20px;
     align-items: center;
     gap: 5px;
 }
 
-.footer-section img{
+.footerSection img{
     width: 20px;
     height: auto;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 1000px) {
+/*header*/
     .navbar {
         flex-direction: column; 
-        padding: 15px 0;
+        height: auto;
+    }
+    .accueil{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    #btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+/*formulaire*/
+    #myForm{
+        width: 90%;
+    }
+
+ /*footer*/
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        height: 100%;
+    }
+    .footerSection{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer h3{
+        margin-top: 10px;
     }
 }
