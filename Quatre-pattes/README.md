@@ -133,17 +133,23 @@ Page d'accueil :
     - partie "Histoire de Réussite"  
         -html ✅
            durée: 10 minutes
-    -js (changement du texte au clic) ↗️
+        -js (changement du texte au clic) ↗️
         durée : 1h30
+        -css ❌ 
 
     - partie "Quiz" ↗️
         -html ✅
           durée : 1h30
-        -css
-         durée :
+        -css ↗️
+         durée : 3h
         -js ↗️ (je ne pense pas pouvoir faire mieux)
           durée : 2h30
 
+Pas terminé: 
+Histoire de réussite : 
+    - texte sur les images
+    - responsive
 
-
-      
+Testez vos connaissances :
+    - espaces entre les questions 
+    - responsive
