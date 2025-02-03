@@ -42,7 +42,7 @@ header{
     list-style: none;
     gap: 20px;
     align-items: center;
-    margin-left: 0;
+    margin-left: auto;
     padding-right: 15px;
 }
 
@@ -158,6 +158,7 @@ textarea {
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
+        margin-left: 0;
     }
     #btn{
         width: 100%;
