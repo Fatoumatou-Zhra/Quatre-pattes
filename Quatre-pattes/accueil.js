@@ -94,3 +94,16 @@ function recit(animal){
 }
 
 //Testez vos connaissances
+function verification(button, type){
+    let text=button.querySelector('p') 
+    
+    button.innerHTML=text.innerHTML
+    text.hidden=false
+    
+    if(type==='vrai'){
+        button.style.backgroundColor='#DCFCE5'
+    } else {
+        button.style.backgroundColor='#FFE3E2'
+    }   
+}
+

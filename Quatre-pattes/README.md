@@ -129,9 +129,20 @@ Page d'accueil :
       -js (changement d'image) ✅
         durée : 10 minutes 
    
+03/02/2024
+    - partie "Histoire de Réussite"  
+        -html ✅
+           durée: 10 minutes
+    -js (changement du texte au clic) ↗️
+        durée : 1h30
 
-
-
+    - partie "Quiz" ↗️
+        -html ✅
+          durée : 1h30
+        -css
+         durée :
+        -js ↗️ (je ne pense pas pouvoir faire mieux)
+          durée : 2h30
 
 
 
